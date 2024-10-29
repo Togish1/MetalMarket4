@@ -1,19 +1,102 @@
+/* Genel ayarlar */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
+/* Header ayarları */
 header {
     background-color: #333;
     color: white;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Hover rengi */
+}
+
+/* Hero section ayarları */
+.hero {
+    background-image: url('img/hero-bg.jpg'); /* Arka plan resmi */
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
     text-align: center;
 }
 
-nav a {
-    color: white;
-    padding: 10px 15px;
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero .cta {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
     text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .cta:hover {
+    background-color: #e6b800; /* Hover rengi */
+}
+
+/* Features section ayarları */
+.features {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.features h2 {
+    text-align: center;
+}
+
+.feature {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+}
+
+.feature h3 {
+    color: #333;
+}
+
+/* Footer ayarları */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
