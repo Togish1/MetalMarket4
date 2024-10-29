@@ -74,10 +74,12 @@ nav ul li a:hover {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .features h2 {
     text-align: center;
+    width: 100%;
 }
 
 .feature {
@@ -87,6 +89,13 @@ nav ul li a:hover {
     padding: 15px;
     width: 30%;
     text-align: center;
+    margin: 10px; /* Alan oluşturmak için */
+}
+
+.feature img {
+    width: 100%; /* Resmi bölgeye uydur */
+    height: auto;
+    border-radius: 5px; /* Kenarları yuvarlaştır */
 }
 
 .feature h3 {
