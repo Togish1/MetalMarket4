@@ -44,7 +44,7 @@ nav ul li a:hover {
 
 /* Hero section ayarları */
 .hero {
-    background-image: url('img/hero-bg.jpg'); /* Arka plan resmi */
+    background-image: url('http://www.metal-market.com.tr/images/hero-bg.jpg'); /* Arka plan resmi */
     background-size: cover;
     color: white;
     padding: 60px 20px;
